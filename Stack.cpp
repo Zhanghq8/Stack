@@ -59,11 +59,11 @@ bool Stack_array::isEmpty()
 	if (top == -1)
 	{
 		std::cout << "The Stack is empty!" << std::endl;
-		return false;
+		return true;
 	}
 	else
 	{
-		return true;
+		return false;
 	}
 }
 
@@ -159,11 +159,11 @@ bool Stack_linkedlist::isEmpty()
 	if (count == 0)
 	{
 		std::cout << "The stack is empty." << std::endl;
-		return false;
+		return true;
 	}
 	else
 	{
-		return true;
+		return false;
 	}
 }
 
